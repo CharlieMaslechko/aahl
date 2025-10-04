@@ -1,0 +1,70 @@
+# Node
+node_modules/
+.pnpm-debug.log
+.yarn/
+.pnpm-store/
+.npm/
+dist/
+build/
+.cache/
+.vite/
+
+# Turbo
+turbo/
+
+# Rails
+apps/api/log/
+apps/api/tmp/
+apps/api/vendor/
+apps/api/.bundle/
+apps/api/.env*
+apps/api/.byebug_history
+apps/api/db/*.sqlite3
+apps/api/db/*.sqlite3-journal
+apps/api/storage/
+
+# React App
+apps/web/.env*
+apps/web/.next/
+apps/web/.turbo/
+apps/web/node_modules/
+apps/web/dist/
+apps/web/build/
+
+# Env
+.env
+.env.*.local
+*.local
+
+.venv/
+.venv/lib/*
+
+# macOS
+.DS_Store
+
+
+# Editor/OS junk
+*.swp
+*.swo
+.idea/
+Thumbs.db
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.turbo
+
+site/
+
+coverage/
+
+# Local
+.local
